@@ -107,4 +107,28 @@ html {
     padding-right: 0;
 }
 
-/*======================================== Start Navigation Area ========================================*/
+/*======================================== End Navigation Area ========================================*/
+
+/*======================================== Start Hero Area ========================================*/
+
+.carousel-inner {
+    padding-top: 6rem;
+}
+
+.d-block {
+    background-size: fill;
+}
+
+/*======================================== Media Queries ========================================*/
+
+@media screen and (max-width: 400px) {
+    .header .menu .navbar .navbar-brand h2 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .header .menu .navbar .navbar-brand h2 {
+        font-size: 3rem;
+    }
+}
