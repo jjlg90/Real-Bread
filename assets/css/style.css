@@ -23,12 +23,12 @@ html {
     height: 6rem;
     z-index: 99;
     transition: all 0.7s ease-in-out;
-    background: rgb(245, 222, 179, 0.5);
+    background: rgb(245, 222, 179, 0.7);
 }
 
 .header.active {
     position: fixed;
-    background: rgba(55, 48, 48, 0.98);
+    background: rgb(245, 222, 179, );
     width: 100%;
     transition: all 0.7s ease-in-out;
 }
@@ -82,7 +82,7 @@ html {
 
 .header .menu .collapsing,
 .header .menu .show {
-    background-color: rgb(245, 222, 179);
+    background-color: rgb(245, 222, 179, 0.7);
     text-align: center;
     margin-top: 2rem;
 }
