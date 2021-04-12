@@ -13,6 +13,18 @@ html {
     font-size: 62.5%;
 }
 
+.title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Quattrocento", sans-serif;
+    font-weight: 700;
+    color: #4c453a;
+    font-size: 5rem;
+    background: rgb(245, 222, 179, 0.5);
+    text-align: center;
+
+}
+
 /*======================================== End General ========================================*/
 
 /*======================================== Start Navigation Area ========================================*/
