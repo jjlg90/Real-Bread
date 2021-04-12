@@ -182,6 +182,57 @@ html {
 }
 
 
+/*======================================== End Hero Area ========================================*/
+
+/*======================================== Start Footer ========================================*/
+
+
+footer {
+    background-color: rgb(245, 222, 179);
+    color: #42332E;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+footer p {
+    padding-top: 1rem;
+}
+
+footer .row .work-with-me .btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .row .social-links {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer .row .social-links ul li {
+    padding-left: 1rem;
+    display: inline;
+}
+
+footer .row .social-links ul {
+    padding-left: 0;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+footer .row .social-links ul li a i {
+    color: #42332E;
+    background: rgb(245, 222, 179, 0.7);
+    transition: all 0.35s ease-in-out;
+}
+
+footer .row .social-links ul li a i:hover {
+    color: #fafafa;
+
+}
+
+/*======================================== End Footer ========================================*/
+
 /*======================================== Media Queries ========================================*/
 
 @media screen and (max-width: 400px) {
