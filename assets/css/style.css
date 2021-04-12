@@ -334,7 +334,7 @@ footer .row .social-links ul li a i:hover {
 
 /*======================================== Media Queries ========================================*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 581px) {
     .header .menu .navbar .navbar-brand h2 {
         font-size: 4rem;
     }
@@ -354,5 +354,11 @@ footer .row .social-links ul li a i:hover {
 @media screen and (max-width: 330px) {
     .header .menu .navbar .navbar-brand h2 {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 807px) {
+    #products {
+        font-size: 1.5rem;
     }
 }
