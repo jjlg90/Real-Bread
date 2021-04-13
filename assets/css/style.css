@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap');
 
 /*======================================== Start General ========================================*/
+:root {
+    --light-wheat: rgb(245, 222, 179);
+    --dark-brown: #42332E;
+    --mid-brown: #54240B;
+    --light-brown: #764636;
+    --gray-wheat: rgb(216, 196, 170);
+    --white: #fafafa;
+}
 
 body,
 html {
@@ -18,9 +26,9 @@ html {
     padding-bottom: 1rem;
     font-family: "Quattrocento", sans-serif;
     font-weight: 700;
-    color: #4c453a;
+    color: var(--dark-brown);
     font-size: 5rem;
-    background: rgb(245, 222, 179, 0.5);
+    background: rgb(245, 222, 179, 0.3);
     text-align: center;
 
 }
@@ -35,12 +43,12 @@ html {
     height: 6rem;
     z-index: 99;
     transition: all 0.7s ease-in-out;
-    background: rgb(245, 222, 179);
+    background: var(--light-wheat);
 }
 
 .header.active {
     position: fixed;
-    background: rgb(245, 222, 179);
+    background: var(--light-wheat);
     width: 100%;
     transition: all 0.7s ease-in-out;
 }
@@ -48,7 +56,7 @@ html {
 .header .menu .navbar .navbar-brand h2 {
     font-family: "Quattrocento", sans-serif;
     font-weight: 700;
-    color: #4c453a;
+    color: var(--dark-brown);
     padding-top: 1rem;
     font-size: 5rem;
 }
@@ -63,7 +71,7 @@ html {
     font-family: "Quattrocento Sans", sans-serif;
     font-weight: 700;
     padding: 1.5rem;
-    color: #42332E;
+    color: var(--dark-brown);
     font-size: 1.5rem;
 }
 
@@ -94,7 +102,7 @@ html {
 
 .header .menu .collapsing,
 .header .menu .show {
-    background-color: rgb(245, 222, 179);
+    background-color: var(--light-wheat);
     text-align: center;
     margin-top: 2rem;
 }
@@ -177,7 +185,7 @@ html {
     font-weight: 700;
     font-size: 7rem;
     font-family: "Quattrocento", sans-serif;
-    color: #42332E;
+    color: var(--dark-brown);
 }
 
 #inner-item2 p {
@@ -185,7 +193,7 @@ html {
     font-weight: 700;
     font-size: 2rem;
     font-family: "Quattrocento", sans-serif;
-    color: #42332E;
+    color: var(--dark-brown);
 
 }
 
@@ -199,11 +207,7 @@ html {
 /*======================================== Start Our Products ========================================*/
 
 #our-products {
-    background-color: rgb(245, 222, 179);
-}
-
-#map {
-    height: 100%;
+    background-color: var(--gray-wheat);
 }
 
 .central-container {
@@ -221,18 +225,16 @@ html {
     font-family: inherit;
 }
 
-/* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #C47647;
+    background-color: var(--light-brown);
     text-align: center;
-    border: 1px solid #42332E;
+    border: 1px solid var(--dark-brown);
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
-    color: #fafafa;
+    color: var(--white);
     float: left;
     background-color: inherit;
     border: none;
@@ -243,30 +245,27 @@ html {
     text-align: center;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #42332E;
-    color: #fafafa;
+    background-color: var(--mid-brown);
+    color: var(--white);
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
-    background-color: #42332E;
-    color: #fafafa;
+    background-color: var(--mid-brown);
+    color: var(--white);
 }
 
 .tab .active .tabcontent {
-    background-color: #C47647;
+    background-color: var(--light-brown);
 }
 
-/* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #42332E;
+    border: 1px solid var(--dark-brown);
     border-top: none;
-    background-color: #42332E;
-    color: #fafafa;
+    background-color: var(--mid-brown);
+    color: var(--white);
 }
 
 .tabcontent h3 {
@@ -286,7 +285,7 @@ html {
 /*======================================== Start Our Locations ========================================*/
 
 #our-locations {
-    background-color: rgb(245, 222, 179);
+    background-color: var(--gray-wheat);
 }
 
 #map {
@@ -299,8 +298,8 @@ html {
 
 
 footer {
-    background-color: rgb(245, 222, 179);
-    color: #42332E;
+    background-color: var(--light-wheat);
+    color: var(--dark-brown);
     font-family: "Quattrocento Sans", sans-serif;
     font-weight: 400;
     font-size: medium;
@@ -332,13 +331,13 @@ footer .row .social-links ul {
 }
 
 footer .row .social-links ul li a i {
-    color: #42332E;
-    background: rgb(245, 222, 179, 0.7);
+    color: var(--dark-brown);
+    background: var(--light-wheat);
     transition: all 0.35s ease-in-out;
 }
 
 footer .row .social-links ul li a i:hover {
-    color: #fafafa;
+    color: var(--white);
 
 }
 
