@@ -3,11 +3,22 @@
 /*======================================== Start General ========================================*/
 :root {
     --light-wheat: rgb(245, 222, 179);
+    --light-wheat-shade: rgb(245, 222, 179, 0.9);
     --dark-brown: #42332E;
     --mid-brown: #54240B;
     --light-brown: #764636;
     --gray-wheat: rgb(216, 196, 170);
     --white: #fafafa;
+}
+
+.darkmode {
+    --light-wheat: #42332E;
+    --light-wheat-shade: rgb(75, 25, 4, 0.9);
+    --dark-brown: #fafafa;
+    --mid-brown: rgb(216, 196, 170);
+    --light-brown: #764636;
+    --gray-wheat: #42332E;
+    --white: #42332E;
 }
 
 body,
@@ -181,7 +192,7 @@ html {
 }
 
 #inner-item2 h3 {
-    background-color: rgba(245, 222, 179, 0.9);
+    background-color: var(--light-wheat-shade);
     font-weight: 700;
     font-size: 7rem;
     font-family: "Quattrocento", sans-serif;
@@ -189,7 +200,7 @@ html {
 }
 
 #inner-item2 p {
-    background-color: rgba(245, 222, 179, 0.9);
+    background-color: var(--light-wheat-shade);
     font-weight: 700;
     font-size: 2rem;
     font-family: "Quattrocento", sans-serif;
@@ -227,14 +238,14 @@ html {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 1px solid #42332E;
     background-color: var(--light-brown);
     text-align: center;
     border: 1px solid var(--dark-brown);
 }
 
 .tab button {
-    color: var(--white);
+    color: #fafafa;
     float: left;
     background-color: inherit;
     border: none;
@@ -337,8 +348,7 @@ footer .row .social-links ul li a i {
 }
 
 footer .row .social-links ul li a i:hover {
-    color: var(--white);
-
+    font-size: 120%;
 }
 
 /*======================================== End Footer ========================================*/
