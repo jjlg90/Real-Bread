@@ -360,6 +360,39 @@ footer .row .social-links ul li a i:hover {
 
 /*======================================== End Footer ========================================*/
 
+/*======================================== Start Modal Contact Form ========================================*/
+
+#mymodal {
+    padding-top: 10rem;
+}
+
+.modal-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content h3,
+.modal-content h5 {
+    color: #fafafa;
+    font-weight: 300;
+}
+
+.modal-content .center-form .btn {
+    margin-bottom: 1rem;
+}
+
+.modal-content .center-form .form-control {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modal-backdrop,
+.show {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+/*======================================== End Modal Contact Form ========================================*/
 
 
 /*======================================== Media Queries ========================================*/
