@@ -1,5 +1,8 @@
+//This script renders the google maps API in Our Locations section
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
+        //initial focused area
         zoom: 9,
         center: {
             lat: 52.30517312711107,
@@ -10,14 +13,18 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [{
+
+            //tag A
             lat: 52.37643384193294,
             lng: 4.631371396030426
         },
         {
+            //tag B
             lat: 52.37369052720405,
             lng: 4.877853119049435
         },
         {
+            //tag C
             lat: 52.075448555229514,
             lng: 4.3166986533105876
         }
