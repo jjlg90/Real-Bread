@@ -72,6 +72,13 @@ html {
     font-size: 5rem;
 }
 
+.header .menu .navbar i {
+    color: var(--dark-brown);
+    font-size: 2rem;
+}
+
+
+
 .header .menu .navbar {
     padding-top: 1rem;
     padding-right: 2rem;
@@ -372,9 +379,13 @@ footer .row .social-links ul li a i:hover {
     }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 340px) {
     .header .menu .navbar .navbar-brand h2 {
         font-size: 3rem;
+    }
+
+    .header .menu .navbar i {
+        font-size: 1.2rem;
     }
 }
 
