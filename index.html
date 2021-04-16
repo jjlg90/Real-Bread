@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_ULU1b0pe9Kb7Ry244BdGf");
+            emailjs.send('gmail', 'realBread', {
+                name: 'James',
+                notes: 'Check this out!'
+            })
+        })();
+    </script>
 
     <title>REAL BREAD</title>
 </head>
@@ -296,7 +305,7 @@
                                 required />
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
                                 required />
-                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
+                            <textarea rows="5" name="message" id="message" class="form-control"
                                 placeholder="Write your message here" required></textarea>
                             <div class="form-row text-center">
                                 <div class="col">
