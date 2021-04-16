@@ -12,10 +12,6 @@
     <script type="text/javascript">
         (function () {
             emailjs.init("user_ULU1b0pe9Kb7Ry244BdGf");
-            emailjs.send('gmail', 'realBread', {
-                name: 'James',
-                notes: 'Check this out!'
-            })
         })();
     </script>
 
@@ -300,9 +296,8 @@
                     <h5 class="uppercase text-center">Get in touch</h5>
 
                     <div class="center-form">
-                        <form>
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required />
+                        <form onsubmit="return sendEmail(this);">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
                             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
                                 required />
                             <textarea rows="5" name="message" id="message" class="form-control"
@@ -320,7 +315,7 @@
     </footer>
 
     <!--*======================================== End Footer ========================================*/-->
-    <script src="assets/js/darkmode.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script
@@ -329,10 +324,12 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARBYSzhsUdyfgGUZvfHTXU52h_nA7g09k&callback=initMap">
     </script>
-    <script src="assets/js/maps.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/darkmode.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="assets/js/script.js"></script>
 
 
