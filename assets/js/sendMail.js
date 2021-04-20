@@ -7,9 +7,11 @@ function sendMail(contactForm) {
         .then(
             function (response) {
                 console.log("SUCCESS", response);
+                alert("SUCCESS! Your message was sent");
             },
             function (error) {
                 console.log("FAILED", error);
+                alert("Woops! It seems we have run into some issues, please try again in a few minutes");
             }
         );
     return false; // To block from loading a new page
