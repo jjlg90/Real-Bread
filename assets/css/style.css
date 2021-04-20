@@ -313,6 +313,7 @@ html {
     color: var(--dark-brown);
     font-size: 2rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 #map {
     min-height: 40rem;
