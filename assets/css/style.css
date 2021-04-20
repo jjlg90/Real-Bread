@@ -241,6 +241,7 @@ html {
     font-size: 2rem;
     text-align: center;
     font-family: inherit;
+    padding-bottom: 2rem;
 }
 
 .tab {
@@ -284,6 +285,7 @@ html {
     border-top: none;
     background-color: var(--mid-brown);
     color: var(--white);
+    padding-bottom: 3rem;
 }
 
 .tabcontent h3 {
@@ -308,6 +310,7 @@ html {
 
 #map {
     min-height: 40rem;
+
 }
 
 /*======================================== End Our Locations ========================================*/
