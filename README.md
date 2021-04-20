@@ -1,45 +1,262 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">REAL BREAD</h1>
+<h1 align="center">Interactive Frontend Development Milestone Project</h1>
 
-Welcome jjlg90,
+![responsive-design](/assets/images/responsive-design.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This project consists of a frontend website for imaginary bakery REAL BREAD.
+Check out the [Live Project](https://jjlg90.github.io/Real-Bread/)!
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User stories
 
-`python3 -m http.server`
+### First time visitor
+* As a First Time Visitor, I expect the purpose of the website to be explicit.
+* As a First Time Visitor, I consider smooth navigation through content to be a key aspect.
+* As a First Time Visitor, I want the content of the website to be relevant and concise. 
+* As a First Time Visitor, I want to know where to find the promoted business.
 
-A blue button should appear to click: _Make Public_,
+### Returning visitor
+* As a Returning Visitor, I would like to see updated information about bakery's new products.
+* As a Returning Visitor, I want to have ease of access to contact the bakery.
+* As a Returning Visitor, I'd like to check bakery's activity on social media.
 
-Another blue button should appear to click: _Open Browser_.
+### Frequent user
+* As a Frequent User, I want to check new products and features.
+* As a Frequent User, I want to be able to propose recipes and products.
+ 
+ 
+ ### Strategy
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ #### Project Goals 
+ To provide bakery REAL BREAD with a presentation website, where its clients can browse products and locations, aswell as where to get them.
+ 
+ #### Developer Goals: 
+ To showcase an attractive, well-designed website that's easily updated and maintained.
 
-A blue button should appear to click: _Make Public_,
+### Scope 
 
-Another blue button should appear to click: _Open Browser_.
+#### Features
+* The project is presented on a single page format with a fixed navigation menu.
+* Fully responsive on different screen sizes.
+* It counts with a contact form inside a modal pop-up.
+* Dark mode toggle.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Future Features
+* Make your Own Loaf section, where users will have access to some of the bakery's recipes.
+* Independent Loaves section, where users can share pictures of their baking creations.
+* Aesthetic animations.
 
-## Updates Since The Instructional Video
+### Structure 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Information
+ The content is grouped in 3 different sections
+* Hero: Carousel of hero images with headers and information about sourdough. 
+* Our Products: tabs with pictures and description of the different products.
+* Our Locations: interactive google maps with marked bakery's locations.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Skeleton
+For the wireframes, Figma software has been used to lay out the foundations of the website.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Check out the [Wireframes](https://www.figma.com/file/HsCoAfn66Pcyj2mq59dF2S/Real-Bread) here!
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Surface
+ The content is easy to navigate and is neatly divided in sections.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ There is two colour palettes, ligh and dark. Both were designed with the several stages of bread caramelization in mind.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ * Three shades of wheat.
+ * Three shades of brown.
+ * One shade of white.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The fonts are:
+* Quattrocento. Classic for headers, elegant and sober. It reflects the calm process of bread making.
+* Quattrocento Sans for content. Warm, readable and not intrusive.
 
----
+## Code and Credits
 
-Happy coding!
+### 1. Header 
+Big REAL BREAD Header with a right aligned collapsible navigation bar. Fixed.
+
+##### Credits
+* Header style inspired by CSS project "Love Running", Code Institute.
+* Javascript shade helped by this [tutorial](https://www.youtube.com/watch?v=Tdkuk9uDTfM&ab_channel=ConorBailey)
+
+### 2. Bootstrap Carousel
+Carousel of divs.
+##### Credits
+* Code adapted from Bootstrap documentation.
+
+### 3. Our Products
+Div with tabs.
+##### Credits
+* Code adapted from How To - Tabs / W3Schools.
+
+### 4. Contact Form
+Contact form encased inside a bootstrap modal.
+##### Credits
+* Code taken from Bootstrap 4 mini-project, Code Institute.
+
+### 5. Colour variables
+Colour palette inside variables in CSS.
+##### Credits
+* Learnt thanks to this [tutorial](https://www.youtube.com/watch?v=3X28IUF4HAQ&ab_channel=ADesignerWhoCodes)
+
+### 6. Dark mode toggle
+Changing colour palette with a single click.
+##### Credits
+* Learnt thanks to this [tutorial](https://www.youtube.com/watch?v=wodWDIdV9BY&ab_channel=KevinPowell)
+
+### 7. Pictures
+All pictures were taken from the web.
+###### Credits
+[Baguettes](https://www.theperfectloaf.com/sourdough-baguettes/)
+[Bread Assortment](https://www.shutterstock.com/image-photo/bakery-gold-rustic-crusty-loaves-bread-1024525984?irclickid=1LWQ-8UGmxyLTZIwUx0Mo3EoUkB0gIX9VSK8Uc0&irgwc=1&utm_medium=Affiliate&utm_campaign=TinEye&utm_source=77643&utm_term=&c3ch=Affiliate&c3nid=IR-77643)
+[Bread Loaf](https://cookidoo.be/recipes/recipe/fr-BE/r166702)
+[Croissants](http://ashleymariefarmandbakery.com/sourdough-croissants-and-cruffins/)
+[Facturas](https://hetlandvandekoningin.nl/2018/09/29/facturas-geen-bonnen-maar-zoetigheid/)
+[Starter](https://littlespoonfarm.com/sourdough-starter-recipe/)
+[Wheat](https://stock.adobe.com/108190637?as_campaign=TinEye&as_content=tineye_match&epi1=108190637&tduid=607e49222296d788aec9a6e619e172ee&as_channel=affiliate&as_campclass=redirect&as_source=arvato)
+[Favicon](https://heartbeetkitchen.com/rye-sourdough-bread-recipe/)
+
+## Technologies
+
+
+### Languages
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-  [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Other Technologies
+
+* [Bootstrapv4.5.3:](https://getbootstrap.com/) 
+    * Responsive design and css styling.
+* [Jquery CDN](https://code.jquery.com)
+    * Javascript.
+* [W3Schools](https://www.w3schools.com/)
+    * CSS documentation.
+* [Figma:](https://figma.com/)
+    - Figma was used to create the wireframes.
+* [GitHub:](https://github.com/)
+    * Code repository.
+* [Gitpod](https://gitpod.io/)
+    * Gitpod was used as IDE and for version control. 
+* [Font Awesome:](https://fontawesome.com/)
+    * Font Awesome was used solely for social media icons in footer.
+* [Google Fonts:](https://fonts.google.com/)
+    * Google fonts was used to import "Quattrocento" and "Quattrocento Sans" family fonts.
+* [Chrome Developer Tools:](https://developers.google.com/web/tools/chrome-devtools)
+    * Used to debug and style.
+* [EmailJS:](https://www.emailjs.com/)
+    * Provided backend email service to contact form.
+* [Google Maps JavaScript API:](https://developers.google.com/maps)
+
+## Testing
+
+*  [Valid HTML!](/assets/images/valid-html.png) HTML has been validated by [W3C validator](https://validator.w3.org/)
+*  [Valid CSS!](/assets/images/valid-css.png) CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+*  [Valid script.js File!]()
+*  [Valid darkmode.js File!]()
+*  [Valid maps.js File!]()
+*  [Valid sendMail.js File!]()
+
+
+#### Responsiveness
+The responsiveness of the website has been tested with Chrome Developer Tools.
+
+#### Validation
+* Form element validation is fully functional.
+
+#### Links
+* All anchor elements work as expected on every browser.
+
+#### Javascript
+* Scripts fully functional on every browser.
+
+## Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I expect the purpose of the website to be explicit.
+
+        * Upon entering the site, the user will see the introductory text that presents the developer and a navigation bar so they can choose a section and start navigating through the website.
+        * The user has two options, click navigation bar buttons or scroll down, since it is a single page site.
+        * [Screenshot](/assets/images/user-s1.jpg)
+    2. As a First Time Visitor, I consider smooth navigation through content to be a key aspect.
+
+        * The header and navigation bar will stay fixed so the option of jumping to a different section is always available. The navigation bar that becomes a burger button on small screens, each link describes the section they will end up at clearly.
+        * [Screenshot](/assets/images/user-s2.png)
+    3. As a First Time Visitor, I want for the content of the website to be relevant and concise. 
+        * The paragraphs are short and focused. No big pieces of text nor unnecessary information is being display.
+        
+
+-   #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I would like to see updated information about the developer's latest projects.
+
+        * Given that this is the first project, this goal should be considered into future features.
+
+    2. As a Returning Visitor, I want to have ease of access to contact the developer.
+
+        * Two buttons in the page will pop-up a modal form for the user to contact the developer. "Contact" button in the navigation bar, and "Work with me" in the footer.
+        * [Screenshot](/assets/images/user-s3.png)
+-   #### Frequent User Goals
+
+    1. As a Frequent User, I want to check which resources and elements have been used for new projects.
+
+        * Given that this is the first project, this goal should be considered into future features.
+
+    2. As a Frequent User, I want to be able to propose new projects or ideas.
+
+        * The previously mentioned contact form counts with a textbox for users to suggest projects and ideas.
+        * [Screenshot](/assets/images/user-s4.png)
+
+## Further Testing
+
+-   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Opera.
+-   The website was viewed on a variety of devices.
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/ms1-v2)
+2. At the top of the Repository, locate the "Settings" button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://jjlg90.github.io/ms1-v2/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/ms1-v2)
+2. At the top of the Repository, just above the "Settings" button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/ms1-v2)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/jjlg90/ms1-v2
+```
+
+7. Press Enter. Your local clone will be created.
+
+### Acknowledgements
+
+* My Mentors, Oluwaseun Owonikoko and Oluwafemi Medale who guided me through development.
+* [Stack Overflow](https://stackoverflow.com/) helped me to find answers about structure and styling from other people's inquiries, posts and threads.
+* Tutor Support.

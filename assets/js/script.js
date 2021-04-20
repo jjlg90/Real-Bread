@@ -1,5 +1,3 @@
-const header = document.querySelector(".header");
-
 /* This script collapses the mobile menu when after a section is selected on it */
 $(".js-scroll-trigger").click(function () {
     $(".navbar-collapse").collapse("hide");

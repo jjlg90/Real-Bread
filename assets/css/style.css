@@ -191,14 +191,14 @@ html {
     background-image: url('../images/starter.jpg');
 }
 
-#inner-item2 {
+#inner-item2, #inner-item3 {
     padding-left: 25%;
     padding-right: 25%;
     padding-bottom: 25%;
     padding-top: 15%;
 }
 
-#inner-item2 h3 {
+#inner-item2 h3, #inner-item3 h3 {
     background-color: var(--light-wheat-shade);
     font-weight: 700;
     font-size: 7rem;
@@ -206,7 +206,7 @@ html {
     color: var(--dark-brown);
 }
 
-#inner-item2 p {
+#inner-item2 p, #inner-item3 p {
     background-color: var(--light-wheat-shade);
     font-weight: 700;
     font-size: 2rem;
