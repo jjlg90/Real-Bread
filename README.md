@@ -71,7 +71,7 @@ Check out the [Wireframes](https://www.figma.com/file/HsCoAfn66Pcyj2mq59dF2S/Rea
 
 
 The fonts are:
-* Quattrocento. Classic for headers, elegant and sober. It reflects the calm process of bread making.
+* Quattrocento for headers. Classic, elegant and sober. It reflects the calm process of bread making.
 * Quattrocento Sans for content. Warm, readable and not intrusive.
 
 ## Code and Credits
@@ -81,7 +81,6 @@ Big REAL BREAD Header with a right aligned collapsible navigation bar. Fixed.
 
 ##### Credits
 * Header style inspired by CSS project "Love Running", Code Institute.
-* Javascript shade helped by this [tutorial](https://www.youtube.com/watch?v=Tdkuk9uDTfM&ab_channel=ConorBailey)
 
 ### 2. Bootstrap Carousel
 Carousel of divs.
@@ -110,15 +109,15 @@ Changing colour palette with a single click.
 
 ### 7. Pictures
 All pictures were taken from the web.
-###### Credits
-[Baguettes](https://www.theperfectloaf.com/sourdough-baguettes/)
-[Bread Assortment](https://www.shutterstock.com/image-photo/bakery-gold-rustic-crusty-loaves-bread-1024525984?irclickid=1LWQ-8UGmxyLTZIwUx0Mo3EoUkB0gIX9VSK8Uc0&irgwc=1&utm_medium=Affiliate&utm_campaign=TinEye&utm_source=77643&utm_term=&c3ch=Affiliate&c3nid=IR-77643)
-[Bread Loaf](https://cookidoo.be/recipes/recipe/fr-BE/r166702)
-[Croissants](http://ashleymariefarmandbakery.com/sourdough-croissants-and-cruffins/)
-[Facturas](https://hetlandvandekoningin.nl/2018/09/29/facturas-geen-bonnen-maar-zoetigheid/)
-[Starter](https://littlespoonfarm.com/sourdough-starter-recipe/)
-[Wheat](https://stock.adobe.com/108190637?as_campaign=TinEye&as_content=tineye_match&epi1=108190637&tduid=607e49222296d788aec9a6e619e172ee&as_channel=affiliate&as_campclass=redirect&as_source=arvato)
-[Favicon](https://heartbeetkitchen.com/rye-sourdough-bread-recipe/)
+##### Credits
+* [Baguettes](https://www.theperfectloaf.com/sourdough-baguettes/)
+* [Bread Assortment](https://www.shutterstock.com/image-photo/bakery-gold-rustic-crusty-loaves-bread-1024525984?irclickid=1LWQ-8UGmxyLTZIwUx0Mo3EoUkB0gIX9VSK8Uc0&irgwc=1&utm_medium=Affiliate&utm_campaign=TinEye&utm_source=77643&utm_term=&c3ch=Affiliate&c3nid=IR-77643)
+* [Bread Loaf](https://cookidoo.be/recipes/recipe/fr-BE/r166702)
+* [Croissants](http://ashleymariefarmandbakery.com/sourdough-croissants-and-cruffins/)
+* [Facturas](https://hetlandvandekoningin.nl/2018/09/29/facturas-geen-bonnen-maar-zoetigheid/)
+* [Starter](https://littlespoonfarm.com/sourdough-starter-recipe/)
+* [Wheat](https://stock.adobe.com/108190637?as_campaign=TinEye&as_content=tineye_match&epi1=108190637&tduid=607e49222296d788aec9a6e619e172ee&as_channel=affiliate&as_campclass=redirect&as_source=arvato)
+* [Favicon](https://heartbeetkitchen.com/rye-sourdough-bread-recipe/)
 
 ## Technologies
 
@@ -152,72 +151,25 @@ All pictures were taken from the web.
 * [EmailJS:](https://www.emailjs.com/)
     * Provided backend email service to contact form.
 * [Google Maps JavaScript API:](https://developers.google.com/maps)
+    * Provided backend map service to Our Locations section.
 
-## Testing
+## Code Validation
 
 *  [Valid HTML!](/assets/images/valid-html.png) HTML has been validated by [W3C validator](https://validator.w3.org/)
 *  [Valid CSS!](/assets/images/valid-css.png) CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-*  [Valid script.js File!]()
-*  [Valid darkmode.js File!]()
-*  [Valid maps.js File!]()
-*  [Valid sendMail.js File!]()
-
 
 #### Responsiveness
 The responsiveness of the website has been tested with Chrome Developer Tools.
 
-#### Validation
+#### Form Validation
 * Form element validation is fully functional.
 
 #### Links
 * All anchor elements work as expected on every browser.
 
-#### Javascript
-* Scripts fully functional on every browser.
+## Testing
 
-## Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-    1. As a First Time Visitor, I expect the purpose of the website to be explicit.
-
-        * Upon entering the site, the user will see the introductory text that presents the developer and a navigation bar so they can choose a section and start navigating through the website.
-        * The user has two options, click navigation bar buttons or scroll down, since it is a single page site.
-        * [Screenshot](/assets/images/user-s1.jpg)
-    2. As a First Time Visitor, I consider smooth navigation through content to be a key aspect.
-
-        * The header and navigation bar will stay fixed so the option of jumping to a different section is always available. The navigation bar that becomes a burger button on small screens, each link describes the section they will end up at clearly.
-        * [Screenshot](/assets/images/user-s2.png)
-    3. As a First Time Visitor, I want for the content of the website to be relevant and concise. 
-        * The paragraphs are short and focused. No big pieces of text nor unnecessary information is being display.
-        
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I would like to see updated information about the developer's latest projects.
-
-        * Given that this is the first project, this goal should be considered into future features.
-
-    2. As a Returning Visitor, I want to have ease of access to contact the developer.
-
-        * Two buttons in the page will pop-up a modal form for the user to contact the developer. "Contact" button in the navigation bar, and "Work with me" in the footer.
-        * [Screenshot](/assets/images/user-s3.png)
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check which resources and elements have been used for new projects.
-
-        * Given that this is the first project, this goal should be considered into future features.
-
-    2. As a Frequent User, I want to be able to propose new projects or ideas.
-
-        * The previously mentioned contact form counts with a textbox for users to suggest projects and ideas.
-        * [Screenshot](/assets/images/user-s4.png)
-
-## Further Testing
-
--   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Opera.
--   The website was viewed on a variety of devices.
-
+__[Click here to read testing documentation.](testing.md)__
 
 ## Deployment
 
@@ -225,24 +177,24 @@ The responsiveness of the website has been tested with Chrome Developer Tools.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/ms1-v2)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/Real-Bread)
 2. At the top of the Repository, locate the "Settings" button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://jjlg90.github.io/ms1-v2/) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://jjlg90.github.io/Real-Bread/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/ms1-v2)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/Real-Bread)
 2. At the top of the Repository, just above the "Settings" button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/ms1-v2)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/jjlg90/Real-Bread)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -250,13 +202,12 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/jjlg90/ms1-v2
+$ git clone https://github.com/jjlg90/Real-Bread
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ### Acknowledgements
 
-* My Mentors, Oluwaseun Owonikoko and Oluwafemi Medale who guided me through development.
+* My Mentor Oluwafemi Medale who guided me through development.
 * [Stack Overflow](https://stackoverflow.com/) helped me to find answers about structure and styling from other people's inquiries, posts and threads.
-* Tutor Support.

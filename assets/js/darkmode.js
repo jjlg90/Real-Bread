@@ -18,7 +18,7 @@ const disableDarkMode = () => {
     //removes darkmode class from body element
     document.body.classList.remove("darkmode");
     //updates darkMode in the localStorage
-    localStorage.setItem("darkMode", "off")
+    localStorage.setItem("darkMode", "off");
 };
 
 if (darkMode === "on") {
