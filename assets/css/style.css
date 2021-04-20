@@ -308,6 +308,12 @@ html {
     background-color: var(--gray-wheat);
 }
 
+.locations {
+    font-family: "Quattrocento Sans", sans-serif;
+    color: var(--dark-brown);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
 #map {
     min-height: 40rem;
 
