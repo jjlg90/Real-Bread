@@ -29,7 +29,7 @@ Check out the [Live Project](https://jjlg90.github.io/Real-Bread/)!
  ### Strategy
 
  #### Project Goals 
- To provide bakery REAL BREAD with a presentation website, where its clients can browse products and locations, aswell as where to get them.
+ To provide bakery REAL BREAD with a presentation website, where its clients can browse products and locations, as well as where to get them.
  
  #### Developer Goals: 
  To showcase an attractive, well-designed website that's easily updated and maintained.
@@ -63,7 +63,7 @@ Check out the [Wireframes](https://www.figma.com/file/HsCoAfn66Pcyj2mq59dF2S/Rea
 ### Surface
  The content is easy to navigate and is neatly divided in sections.
 
- There is two colour palettes, ligh and dark. Both were designed with the several stages of bread caramelization in mind.
+ There is two colour palettes, light and dark. Both were designed with the several stages of bread caramelization in mind.
 
  * Three shades of wheat.
  * Three shades of brown.

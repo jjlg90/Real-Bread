@@ -45,7 +45,7 @@
      * Aesthetic animations.
 
 * As a Frequent User, I want to be able to propose recipes and products.
-   * The contact form can be used for this purpose, but users will be encouraged to do so through Independen Loaves section, once released.
+   * The contact form can be used for this purpose, but users will be encouraged to do so through Independent Loaves section, once released.
 
 ## Functionality Testing
 
@@ -87,7 +87,7 @@ The responsiveness of the website has been tested with Chrome Developer Tools an
 
 #### Modal Contact Form
 * Feature is expected to pop up and cover the screen fully with a contact form. Can be dismissed by clicking outside the form's div.
-  * Clicked on contact buttons. Form poped-up as expected. Clicked outside div, form closed as expected. - Check
+  * Clicked on contact buttons. Form pops-up as expected. Clicked outside div, form closed as expected. - Check
 * Feature is expected to receive correct input information on every field.
   * Form won't allow empty fields, pop-up message warns user about it. Form element validation is fully functional. - Check
  ![responsive-design](/assets/images/formvalidation-testing.jpg)
@@ -100,7 +100,7 @@ The responsiveness of the website has been tested with Chrome Developer Tools an
   * Filled and submitted form for testing. Email received in mailbox. - Check
  ![responsive-design](/assets/images/email1-testing.jpg)
 * Feature is expected to send a confirmation email to the user.
-  * Filled and submitted form for testing. Email received in personalmailbox. - Check
+  * Filled and submitted form for testing. Email received in personal mailbox. - Check
  ![responsive-design](/assets/images/email2-testing.jpg)
 
 
