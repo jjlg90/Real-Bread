@@ -62,13 +62,47 @@
 *  [Valid CSS!](/assets/images/valid-css.png) CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 ### Responsiveness
-The responsiveness of the website has been tested with Chrome Developer Tools.
-* Fully responsive, all tested devices - Check
-
-### Form Validation
-* Form element validation is fully functional. - Check
+The responsiveness of the website has been tested with Chrome Developer Tools and Chrome Responsive Viewer.
+* Fully responsive on all tested devices - Check
 
 ### Links
-* All anchor elements work as expected on every browser. - Check
+* Clicked all anchor elements. They work as expected on every browser. - Check
+
+### Features
+
+#### Dark Mode Toggle
+* Feature is expected to change colour palette and remember the selected one on future visits.
+  * Clicked on dark mode toggle and refreshed the page. It successfully keeps the changes - Check
+ ![responsive-design](/assets/images/darkmode-testing.jpg)
+
+#### Tabs
+* Feature is expected to shift div content when tabs are active.
+  * Clicked every tab in Our Products section. Worked as expected. - Check
+ ![responsive-design](/assets/images/tabs-testing.jpg)
+
+#### Google Maps API
+* Feature is expected to show a map over Nord-Holland, The Netherlands, with markers signaling 3 locations.
+  * Map renders properly and shows all markers. - Check
+ ![responsive-design](/assets/images/googlemaps-testing.jpg)
+
+#### Modal Contact Form
+* Feature is expected to pop up and cover the screen fully with a contact form. Can be dismissed by clicking outside the form's div.
+  * Clicked on contact buttons. Form poped-up as expected. Clicked outside div, form closed as expected. - Check
+* Feature is expected to receive correct input information on every field.
+  * Form won't allow empty fields, pop-up message warns user about it. Form element validation is fully functional. - Check
+ ![responsive-design](/assets/images/formvalidation-testing.jpg)
+* Feature alerts user about message sent status.
+  * Filled and submitted form for testing. Alert pops-up declaring a successful operation. - Check
+ ![responsive-design](/assets/images/formalert-testing.jpg)
+
+#### emailJS
+* Feature is expected to send form information to a mailbox through emailJS API.
+  * Filled and submitted form for testing. Email received in mailbox. - Check
+ ![responsive-design](/assets/images/email1-testing.jpg)
+* Feature is expected to send a confirmation email to the user.
+  * Filled and submitted form for testing. Email received in personalmailbox. - Check
+ ![responsive-design](/assets/images/email2-testing.jpg)
+
+
 
 
