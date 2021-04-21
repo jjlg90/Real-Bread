@@ -1,13 +1,14 @@
+/*This script provides backend email services to the contact form*/
 function sendMail(contactForm) {
     emailjs.send("realBreadID", "realBread", {
-            "from_name": contactForm.name.value,
-            "from_email": contactForm.emailaddress.value,
-            "message": contactForm.message.value
-        })
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "message": contactForm.message.value
+    })
         .then(
             function (response) {
                 console.log("SUCCESS", response);
-                alert("SUCCESS! Your message was sent");
+                alert("SUCCESS! Message sent");
             },
             function (error) {
                 console.log("FAILED", error);

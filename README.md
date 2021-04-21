@@ -22,7 +22,7 @@ Check out the [Live Project](https://jjlg90.github.io/Real-Bread/)!
 * As a Returning Visitor, I'd like to check bakery's activity on social media.
 
 ### Frequent user
-* As a Frequent User, I want to check new products and features.
+* As a Frequent User, I want to check new features.
 * As a Frequent User, I want to be able to propose recipes and products.
  
  
@@ -152,20 +152,6 @@ All pictures were taken from the web.
     * Provided backend email service to contact form.
 * [Google Maps JavaScript API:](https://developers.google.com/maps)
     * Provided backend map service to Our Locations section.
-
-## Code Validation
-
-*  [Valid HTML!](/assets/images/valid-html.png) HTML has been validated by [W3C validator](https://validator.w3.org/)
-*  [Valid CSS!](/assets/images/valid-css.png) CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-
-#### Responsiveness
-The responsiveness of the website has been tested with Chrome Developer Tools.
-
-#### Form Validation
-* Form element validation is fully functional.
-
-#### Links
-* All anchor elements work as expected on every browser.
 
 ## Testing
 

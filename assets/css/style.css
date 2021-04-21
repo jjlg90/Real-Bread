@@ -412,14 +412,14 @@ footer .row .social-links ul li a i:hover {
         font-size: 4rem;
     }
 
-    #inner-item2 {
+    #inner-item2, #inner-item3  {
         padding-left: 10%;
         padding-right: 10%;
         padding-bottom: 10%;
         padding-top: 30%;
     }
 
-    #inner-item2 h3 {
+    #inner-item2 h3, #inner-item3 h3 {
         font-size: 4rem;
     }
 }
@@ -430,7 +430,7 @@ footer .row .social-links ul li a i:hover {
     }
 
     .header .menu .navbar i {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 

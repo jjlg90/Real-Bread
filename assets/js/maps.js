@@ -1,4 +1,4 @@
-//This script renders the google maps API in Our Locations section
+/*This script renders the google maps API in Our Locations section*/
 
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
@@ -14,31 +14,34 @@ function initMap() {
 
     var locations = [{
 
-            coords:{
+        //location A
+        coords: {
             lat: 52.37643384193294,
             lng: 4.631371396030426
-            },
-            info:"Haarlem - Grote Houtstraat 163"
         },
-        {
-            coords:{
+        info: "Haarlem - Grote Houtstraat 163"
+    },
+    {
+        //Location B
+        coords: {
             lat: 52.37369052720405,
             lng: 4.877853119049435
-            },
-            info:"Amsterdam - Rozengracht 180"
         },
-        {
-            coords:{
+        info: "Amsterdam - Rozengracht 180"
+    },
+    {
+        //Location C
+        coords: {
             lat: 52.075448555229514,
             lng: 4.3166986533105876
-            },
-            info:`<h2>The Hague - Wagenstraat 182</h2>`
-        }
+        },
+        info: `<h2>The Hague - Wagenstraat 182</h2>`
+    }
     ];
 
     var infoWindow = new google.maps.InfoWindow({
-    content: location.info,
-  });
+        content: location.info,
+    });
 
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
@@ -52,7 +55,7 @@ function initMap() {
     });
 
     marker.addListener('click', function () {
-            infoWindow.open(map, marker);
-        });
+        infoWindow.open(map, marker);
+    });
 
 }

@@ -1,4 +1,4 @@
-//This script toggles between body's original colour palette and dark mode.
+/*This script toggles between body's original colour palette and dark mode*/
 
 let darkMode = localStorage.getItem("darkMode");
 const darkModeToggle = document.querySelector("#dark-mode-toggle");
