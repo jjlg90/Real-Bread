@@ -1,7 +1,7 @@
-<h1 align="center">REAL BREAD</h1>
-<h2 align="center">Interactive Frontend Development Milestone Project</h2>
+<h1>REAL BREAD</h1>
+<h2>Interactive Frontend Development Milestone Project</h2>
 
-<h1 align="center">Testing</h1>
+<h1>Testing</h1>
 
 
 ## User Experience (UX)

@@ -1,10 +1,14 @@
-<h1 align="center">REAL BREAD</h1>
-<h1 align="center">Interactive Frontend Development Milestone Project</h1>
+<h1>REAL BREAD</h1>
+<h1>Interactive Frontend Development Milestone Project</h1>
 
 ![responsive-design](/assets/images/responsive-design.png)
 
-This project consists of a frontend website for imaginary bakery REAL BREAD.
+This project consists of a website for bakery REAL BREAD, with its three locations in North Holland, The Netherlands.
+The website is presented as a single page application, with 3 sections - Hero, Our Products and Our Locations - focused on user experience and responsive on different kinds of resolutions.
 Check out the [Live Project](https://jjlg90.github.io/Real-Bread/)!
+
+#### Disclaimer
+REAL BREAD bakery does not exist. The creation of this project is purely educative. 
 
 ## User Experience (UX)
 
@@ -74,58 +78,8 @@ The fonts are:
 * Quattrocento for headers. Classic, elegant and sober. It reflects the calm process of bread making.
 * Quattrocento Sans for content. Warm, readable and not intrusive.
 
-## Code and Credits
-
-### 1. Header 
-Big REAL BREAD Header with a right aligned collapsible navigation bar. Fixed.
-
-##### Credits
-* Header style inspired by CSS project "Love Running", Code Institute.
-
-### 2. Bootstrap Carousel
-Carousel of divs.
-##### Credits
-* Code adapted from Bootstrap documentation.
-
-### 3. Our Products
-Div with tabs.
-##### Credits
-* Code adapted from How To - Tabs / W3Schools.
-
-### 4. Contact Form
-Contact form encased inside a bootstrap modal.
-##### Credits
-* Code taken from Bootstrap 4 mini-project, Code Institute.
-
-### 5. Colour variables
-Colour palette inside variables in CSS.
-##### Credits
-* Learnt thanks to this [tutorial](https://www.youtube.com/watch?v=3X28IUF4HAQ&ab_channel=ADesignerWhoCodes)
-
-### 6. Dark mode toggle
-Changing colour palette with a single click.
-##### Credits
-* Learnt thanks to this [tutorial](https://www.youtube.com/watch?v=wodWDIdV9BY&ab_channel=KevinPowell)
-
-### 6. Google Maps API
-Maps integration.
-##### Credits
-* Helped a lot by this [tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1301s&ab_channel=TraversyMedia)
-
-### 7. Pictures
-All pictures were taken from the web.
-##### Credits
-* [Baguettes](https://www.theperfectloaf.com/sourdough-baguettes/)
-* [Bread Assortment](https://www.shutterstock.com/image-photo/bakery-gold-rustic-crusty-loaves-bread-1024525984?irclickid=1LWQ-8UGmxyLTZIwUx0Mo3EoUkB0gIX9VSK8Uc0&irgwc=1&utm_medium=Affiliate&utm_campaign=TinEye&utm_source=77643&utm_term=&c3ch=Affiliate&c3nid=IR-77643)
-* [Bread Loaf](https://cookidoo.be/recipes/recipe/fr-BE/r166702)
-* [Croissants](http://ashleymariefarmandbakery.com/sourdough-croissants-and-cruffins/)
-* [Facturas](https://hetlandvandekoningin.nl/2018/09/29/facturas-geen-bonnen-maar-zoetigheid/)
-* [Starter](https://littlespoonfarm.com/sourdough-starter-recipe/)
-* [Wheat](https://stock.adobe.com/108190637?as_campaign=TinEye&as_content=tineye_match&epi1=108190637&tduid=607e49222296d788aec9a6e619e172ee&as_channel=affiliate&as_campclass=redirect&as_source=arvato)
-* [Favicon](https://heartbeetkitchen.com/rye-sourdough-bread-recipe/)
 
 ## Technologies
-
 
 ### Languages
 
@@ -197,6 +151,28 @@ $ git clone https://github.com/jjlg90/Real-Bread
 ```
 
 7. Press Enter. Your local clone will be created.
+
+## Credits
+
+* Header style inspired by CSS project "Love Running", Code Institute.
+* Bootstrap carousel code adapted from Bootstrap documentation.
+* Our Products section's div with tabs code adapted from How To - Tabs / W3Schools.
+* Contact form code taken from Bootstrap 4 mini-project, Code Institute.
+* Colour variables learnt thanks to this [tutorial](https://www.youtube.com/watch?v=3X28IUF4HAQ&ab_channel=ADesignerWhoCodes)
+* Dark mode toggle (window.localStorage) learnt thanks to this [tutorial](https://www.youtube.com/watch?v=wodWDIdV9BY&ab_channel=KevinPowell)
+* Google Maps API. Helped a lot by this [tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1301s&ab_channel=TraversyMedia)
+
+#### Pictures
+Pictures were taken from the following websites.
+
+* Baguettes picture from [here](https://www.theperfectloaf.com/sourdough-baguettes/)
+* Bread Assortment from [here](https://www.shutterstock.com/image-photo/bakery-gold-rustic-crusty-loaves-bread-1024525984?irclickid=1LWQ-8UGmxyLTZIwUx0Mo3EoUkB0gIX9VSK8Uc0&irgwc=1&utm_medium=Affiliate&utm_campaign=TinEye&utm_source=77643&utm_term=&c3ch=Affiliate&c3nid=IR-77643)
+* Bread Loaf from [here](https://cookidoo.be/recipes/recipe/fr-BE/r166702)
+* Croissants from [here](http://ashleymariefarmandbakery.com/sourdough-croissants-and-cruffins/)
+* Facturas from [here](https://hetlandvandekoningin.nl/2018/09/29/facturas-geen-bonnen-maar-zoetigheid/)
+* Starter from [here](https://littlespoonfarm.com/sourdough-starter-recipe/)
+* Wheat from [here](https://stock.adobe.com/108190637?as_campaign=TinEye&as_content=tineye_match&epi1=108190637&tduid=607e49222296d788aec9a6e619e172ee&as_channel=affiliate&as_campclass=redirect&as_source=arvato)
+* Favicon from [here](https://heartbeetkitchen.com/rye-sourdough-bread-recipe/)
 
 ### Acknowledgements
 
