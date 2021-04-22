@@ -82,6 +82,9 @@ The responsiveness of the website has been tested with Chrome Developer Tools an
 
 #### Google Maps API
 * Feature is expected to show a map over Nord-Holland, The Netherlands, with markers signaling 3 locations.
+  * Show on map buttons fully functional. - Check
+  * Phone link fully triggers call on browser. -Check
+  * Email (contact) link triggers mail services on browser. -Check
   * Map renders properly and shows all markers. - Check
  ![responsive-design](/assets/images/googlemaps-testing.jpg)
 
