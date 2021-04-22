@@ -15,7 +15,10 @@ function initMap() {
     // Add marker call-out
 
     addMarker({
-        coords: { lat: 52.37643384193294, lng: 4.631371396030426 },
+        coords: {
+            lat: 52.37643384193294,
+            lng: 4.631371396030426
+        },
         content: `<div style="text-align: center; font-family: 'Quattrocento', sans-serif; font-weight: 400"><h2>REAL BREAD</br>Haarlem</h2><h4>Grote Houtstraat 163</h4></div>`
     });
 
@@ -53,7 +56,7 @@ function initMap() {
 
         }
     }
-    //Zoom a location by clicking location button
+    //Zooms in a location by clicking location button
     $(".location-button").click(function () {
         map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
         map.setZoom(17);

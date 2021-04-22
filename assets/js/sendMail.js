@@ -1,4 +1,4 @@
-/*This script provides backend email services to the contact form*/
+//This function provides backend email services to the contact form
 function sendMail(contactForm) {
     emailjs.send("realBreadID", "realBread", {
         "from_name": contactForm.name.value,
