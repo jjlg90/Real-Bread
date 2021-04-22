@@ -1,9 +1,9 @@
-/* This script collapses the mobile menu when after a section is selected on it */
+// This event collapses the mobile menu when after a section is selected on it 
 $(".js-scroll-trigger").click(function () {
     $(".navbar-collapse").collapse("hide");
 });
 
-/* This script shift between tabs in Our Products section*/
+// This function shift between tabs in Our Products section
 function openProductTab(evt, productName) {
     // Declare all variables
     let i, tabcontent, tablinks;
