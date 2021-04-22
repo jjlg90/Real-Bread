@@ -107,6 +107,11 @@ Changing colour palette with a single click.
 ##### Credits
 * Learnt thanks to this [tutorial](https://www.youtube.com/watch?v=wodWDIdV9BY&ab_channel=KevinPowell)
 
+### 6. Google Maps API
+Maps integration.
+##### Credits
+* Helped a lot by this [tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=1301s&ab_channel=TraversyMedia)
+
 ### 7. Pictures
 All pictures were taken from the web.
 ##### Credits
