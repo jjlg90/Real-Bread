@@ -210,11 +210,75 @@
 
         <section id="our-locations">
             <h2 class="title">Our Locations</h2>
-            <div class="containter-fluid" style="padding-bottom: 2rem;
+            <div class="container-fluid" style="padding-bottom: 2rem;
     padding-top: 1rem;">
-                <h2 class="locations">Amsterdam - Rozengracht 180</h2>
-                <h2 class="locations">Haarlem - Grote Houtstraat 163</h2>
-                <h2 class="locations">The Hague - Wagenstraat 182</h2>
+
+                <div id="bakeries" class="row">
+
+                    <div class="col-xl-2 col-lg-2 col-md-1 col-sm-1 col-xs-1"></div>
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-10 col-xs-10 location-item">
+                        <h2 class="locations"><i class="fas fa-map-marker-alt"
+                                aria-hidden="true"></i></br>Amsterdam</br>Rozengracht 180</h2>
+                        <p class="location-content">
+                            <i class="fas fa-phone" aria-hidden="true"></i></br>
+                            <a class="contact-details" href="tel:+1234567890">Phone</a>
+                        </p>
+                        <p class="location-content">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a class="contact-details nav-link js-scroll-trigger" data-toggle="modal"
+                                href="#mymodal">Contact</a>
+                        </p>
+                        <button onclick="location.href='#map'" class="location-button btn btn-secondary"
+                            data-lat="52.37369052720405" data-lng="4.877853119049435">
+                            Show on map
+                        </button>
+                    </div>
+
+                    <div class="col-xl-1 col-lg-1 col-md-2 col-sm-1 col-xs-1"></div>
+                    <div class="d-xl-none d-lg-none d-md-none col-sm-1 d-xs-none"></div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-10 col-xs-10 location-item">
+                        <h2 class="locations"><i class="fas fa-map-marker-alt"
+                                aria-hidden="true"></i></br>Haarlem</br>Grote Houtstraat 163</h2>
+                        <p class="location-content">
+                            <i class="fas fa-phone" aria-hidden="true"></i></br>
+                            <a class="contact-details" href="tel:+1234567890">Phone</a>
+                        </p>
+                        <p class="location-content">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a class="contact-details nav-link js-scroll-trigger" data-toggle="modal"
+                                href="#mymodal">Contact</a>
+                        </p>
+                        <button onclick="href='#map'" class="location-button btn btn-secondary"
+                            data-lat="52.37643384193294" data-lng="4.631371396030426">
+                            Show on map
+                        </button>
+                    </div>
+
+                    <div class="col-xl-1 col-lg-1 col-md-2 col-sm-1 col-xs-1"></div>
+                    <div class="d-xl-none d-lg-none d-md-none col-sm-1 d-xs-none"></div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-10 col-xs-10 location-item">
+                        <h2 class="locations"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></br>The
+                            Hague</br>Wagenstraat 182</h2>
+                        <p class="location-content">
+                            <i class="fas fa-phone" aria-hidden="true"></i></br>
+                            <a class="contact-details" href="tel:+1234567890">Phone</a>
+                        </p>
+                        <p class="location-content">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <a class="contact-details nav-link js-scroll-trigger" data-toggle="modal"
+                                href="#mymodal">Contact</a>
+                        </p>
+                        <button onclick="location.href='#map'" class="location-button btn btn-secondary"
+                            data-lat="52.075448555229514" data-lng="4.3166986533105876">
+                            Show on map
+                        </button>
+                    </div>
+                    <div class="d-xl-2 d-lg-2 col-md-1 col-sm-1 col-xs-1"></div>
+
+                </div>
+
                 <div id="map"></div>
             </div>
         </section>
@@ -247,7 +311,7 @@
                     </ul>
                 </div>
                 <div class="text-center col-lg-2 col-md-2 col-sm-12 col-xs-5 work-with-me">
-                    <button type="button" class="btn btn-dark btn-lg" data-toggle="modal"
+                    <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal"
                         data-target="#mymodal">Contact</button>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>

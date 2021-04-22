@@ -24,6 +24,7 @@
 body,
 html {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -308,16 +309,47 @@ html {
     background-color: var(--gray-wheat);
 }
 
+#bakeries {
+    text-align: center;
+    
+}
+
+.location-item {
+    display: inline-block;
+    border-top: 2px solid;
+    padding-bottom: 1rem;
+}
+
 .locations {
     font-family: "Quattrocento Sans", sans-serif;
     color: var(--dark-brown);
     font-size: 2rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
+    margin: 1rem;
 }
+
+.location-content {
+    font-size: 1.5rem;
+     color: var(--dark-brown);
+}
+
 #map {
     min-height: 40rem;
+}
 
+.location-button {
+margin-bottom: 1rem;
+}
+
+.contact-details {
+    color: var(--dark-brown);
+}
+
+.contact-details:hover {
+    text-decoration: underline;
+    transition: all 0.40s ease-in-out;
+    color: var(--dark-brown);
 }
 
 /*======================================== End Our Locations ========================================*/
@@ -438,4 +470,14 @@ footer .row .social-links ul li a i:hover {
     #products {
         font-size: 1.5rem;
     }
+
+    .locations {
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 914px) {
+.locations {
+    font-size: 1.5rem;
+}
 }
