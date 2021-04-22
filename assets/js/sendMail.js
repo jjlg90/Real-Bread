@@ -10,6 +10,7 @@ function sendMail(contactForm) {
                 console.log("SUCCESS", response);
                 alert("SUCCESS! Message sent");
                 document.getElementById("contact-form").reset();
+                document.getElementById("close").click();
             },
             function (error) {
                 console.log("FAILED", error);

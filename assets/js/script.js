@@ -6,7 +6,7 @@ $(".js-scroll-trigger").click(function () {
 /* This script shift between tabs in Our Products section*/
 function openProductTab(evt, productName) {
     // Declare all variables
-    var i, tabcontent, tablinks;
+    let i, tabcontent, tablinks;
 
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
