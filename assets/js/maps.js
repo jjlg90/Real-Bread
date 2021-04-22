@@ -7,7 +7,7 @@ function initMap() {
             lat: 52.30517312711107,
             lng: 4.675973153140284
         }
-    }
+    };
 
     // New map
     var map = new google.maps.Map(document.getElementById('map'), options);
@@ -52,7 +52,7 @@ function initMap() {
 
             marker.addListener('click', function () {
                 infoWindow.open(map, marker);
-            })
+            });
 
         }
     }
